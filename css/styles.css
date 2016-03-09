@@ -1,0 +1,1160 @@
+
+
+@charset "UTF-8";
+
+/* CSS Document —Rancho La Habra Website */
+
+/* Global Styles ************ */
+
+html
+{
+    background: url(../i/home/RanchoHabra-bbg144.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+Body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #404040;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+    max-width: 68.75em;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/*  LOGO Banner & NAV ************  */
+
+#logoBanner
+{
+    width: width: 100%;
+}
+
+header
+{
+    width: 100%;
+    height: 7.875em;
+    background: url(../i/home/logo-banner-144.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+header h1, header h2
+{
+    display: none;
+}
+
+header a
+{
+    float: right;
+    width: 10.938em;
+    height: 6.875em;
+    background: url(../i/home/support-banner-butt-x144.png) no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -99999em;
+    margin: 1em 1.125em 0 0;
+}
+
+/* MAIN NAV ************  */
+
+nav
+{
+    width: 100%;
+    height: 2.875em;
+    margin-bottom: 0.65em;
+    background-color: #000;
+    overflow: hidden;
+}
+
+nav ul
+{
+    width: 96.875em;
+    margin-left: 14%;
+    overflow: hidden;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 0.65em 1.15em 0;
+}
+
+nav a
+{
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+}
+
+nav #menu
+{
+    display: none;
+}
+
+nav a:hover, .homepage .mmHome, .vision .mmVision, .benefits .mmBenefits, 
+.facts .mmFacts, .about .mmAbout, .contact .mmContact
+{
+    color: #a0c670;
+}
+
+/* ---------------------------------------------------------------------------------------------
+HOMEPAGE STYLES 
+----------------------------------------------------------------------------------------------- */
+
+#contentContainer
+{
+    width: 68.75em;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* ------------  SLIDER SECTION ****** */
+
+#slider
+{
+    width: 68.75em;
+}
+
+.news-slider
+{
+    width: 68.75em;
+    height: 28.813em;
+    overflow: hidden;
+}
+
+#slider img
+{
+    width: 68.75em;
+    height: 26.313em;
+    overflow: hidden;
+}
+
+.news-slider .text-content
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+}
+
+#slider .image-content
+{
+    width: 68.75em;
+    height: 26.313em;
+    overflow: hidden;
+}
+
+.news-slider .text-content  h2
+{
+    display: block;
+    width: 90%;
+    height: 2.875em;
+    font-size: 2.5em;
+    color: #fff;
+    text-indent: -9999em;
+    margin-left: 0.65em;
+    padding: 0;
+}
+
+.news-slider .text-content .parksHeader
+{
+    background: url(../i/home/parks-slide-header.png) no-repeat;
+    background-size: contain;
+}
+
+.news-slider .text-content .trailsHeader
+{
+    background: url(../i/home/trails-slide-header.png) no-repeat;
+    background-size: contain;
+}
+
+.news-slider .text-content .conservationHeader
+{
+    background: url(../i/home/conservation-slide-header.png) no-repeat;
+    background-size: contain;
+}
+
+.news-slider .text-content .benefitsHeader
+{
+    background: url(../i/home/benefits-slide-header.png) no-repeat;
+    background-size: contain;
+}
+
+.news-slider .text-content .homesHeader
+{
+    background: url(../i/home/homes-slide-header.png) no-repeat;
+    background-size: contain;
+}
+
+.news-slider .text-content h3
+{
+    display: block;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.875em;
+    line-height: 1.25em;
+    padding: 0.5em 0 1em 0;
+}
+
+.news-slider .text-content .capWrapper
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #1c2d07;
+    opacity: 0.7;
+}
+
+.news-slider .text-content .capWrapper span
+{
+    color: #fcdc03;
+    font-weight: 700;
+}
+
+.news-slider .text-content p
+{
+    display: block;
+    color: #fff;
+    font-size: 1.125em;
+    line-height: 1.75em;
+    padding: 1em 1em 1em 0.75em;
+}
+
+.news-slider .text-content  ul
+{
+    display: block;
+    width: 100%;
+    padding: 0 0 0 1.875em;
+    margin: 0;
+    overflow: hidden;
+}
+
+.news-slider .text-content  li
+{
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.news-slider .text-content li:first-child
+{
+    width: 45%;
+}
+
+.news-slider .text-content li:nth-child(2)
+{
+    width: 50%;
+}
+
+/*
+.sy-pager 
+{
+margin: 0.875em 0 0;
+}
+
+.sy-pager li 
+{
+width: 0.75em;
+height: 0.75em;
+}
+
+.sy-pager li.sy-active a
+ {
+background-color: #fdb404; 
+}
+
+.sy-pager li a 
+{
+background-color: #718b51;
+}
+*/
+
+/* HOME FEAT BUTTONS ************ */
+
+#featured
+{
+    width: 68.75em;
+    padding-bottom: 1em;
+}
+
+#featured ul
+{
+    float: left;
+    display: block;
+    width: 42.5em;
+    padding-left: 1.875em;
+    overflow: hidden;
+}
+
+#featured ul li
+{
+    display: inline-block;
+    width: 19.875em;
+    height: 10.75em;
+    margin: 0 0.75em 2.25% 0;
+}
+
+#featured ul li.bottomRow
+{
+    display: inline-block;
+    width: 13.094em;
+    height: 10.75em;
+    margin: 0 0.45em 1em 0;
+}
+
+#featured ul li a
+{
+    display: block;
+    width: 19.875em;
+    height: 10.75em;
+    overflow: hidden;
+}
+
+#featured ul h3
+{
+    display: none;
+}
+
+#featured li#learn a
+{
+    background: url(../i/home/fpos/learnMore-butt.jpg) no-repeat;
+    background-size: 19.875em 21.5em;
+}
+
+#featured li#support a
+{
+    background: url(../i/home/fpos/showSupport-butt.jpg) no-repeat;
+    background-size: 19.875em 21.5em;
+}
+
+#featured li#facts a
+{
+    background: url(../i/home/fpos/getFacts-butt.jpg) no-repeat;
+    background-size: 13.094em 21.5em;
+}
+
+#featured li#public a
+{
+    background: url(../i/home/fpos/publicProcess-butt.jpg) no-repeat;
+    background-size: 13.094em 21.5em;
+}
+
+#featured li#benefits a
+{
+    background: url(../i/home/fpos/benefits4habra-butt.jpg) no-repeat;
+    background-size: 13.094em 21.5em;
+}
+
+/* ----- */
+
+#featured li#learn a:hover
+{
+    background: url(../i/home/fpos/learnMore-butt.jpg) no-repeat 0 -10.75em;
+    background-size: 19.875em 21.5em;
+}
+
+#featured li#support a:hover
+{
+    background: url(../i/home/fpos/showSupport-butt.jpg) no-repeat 0 -10.75em;
+    background-size: 19.875em 21.5em;
+}
+
+#featured li#facts a:hover
+{
+    background: url(../i/home/fpos/getFacts-butt.jpg) no-repeat 0 -10.75em;
+    background-size: 13.094em 21.5em;
+}
+
+#featured li#public a:hover
+{
+    background: url(../i/home/fpos/publicProcess-butt.jpg) no-repeat 0 -10.75em;
+    background-size: 13.094em 21.5em;
+}
+
+#featured li#benefits a:hover
+{
+    background: url(../i/home/fpos/benefits4habra-butt.jpg) no-repeat 0 -10.75em;
+    background-size: 13.094em 21.5em;
+}
+
+/* Blog section ************ */
+
+aside
+{
+    float: left;
+    display: block;
+    width: 22.5em;
+    padding-bottom: 1em;
+}
+
+aside h1
+{
+    display: block;
+    width: 22.5em;
+    height: 1.625em;
+    background: url(../i/home/rancho-la-habra-news-header.png) no-repeat;
+    background-size: contain;
+    text-indent: -99999em;
+}
+
+#blogheadlines
+{
+    width: 100%;
+    border-top: 1px solid #9bbf70;
+    padding: 6.5% 0 0;
+    margin-top: 3.5%;
+}
+
+aside p a
+{
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    color: #575757;
+    padding-bottom: 0.875em;
+}
+
+aside p a:hover
+{
+    text-decoration: underline;
+}
+
+aside span
+{
+    color: #586c40;
+    font-weight: 400;
+    font-size: 0.875em;
+}
+
+#featured #newsbutton
+{
+    float: right;
+    width: 7.25em;
+    height: 2.125em;
+    background-color: #718b51;
+    font-size: 0.875;
+    line-height: 1.9em;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+#featured #newsbutton:hover
+{
+    background-color: #000;
+}
+
+/* FOOTER SECTION ************ */
+
+footer
+{
+    width: 100%;
+    height: 42px;
+    background-color: #a4b392;
+    clear: both;
+}
+
+footer ul#subNav
+{
+    display: block;
+    float: left;
+    width: 75%;
+    padding: 0.5em 0 0 0;
+}
+
+footer ul#subNav li
+{
+    display: inline-block;
+    font-size: 0.875em;
+    color: #fff;
+}
+
+footer ul#subNav li:first-child
+{
+    width: 20%;
+    margin-left: 2.1em;
+}
+
+footer ul#subNav li:last-child
+{
+    width: 60%;
+    text-align: right;
+}
+
+footer ul#subNav a
+{
+    font-size: 1em;
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer ul#subNav a:hover
+{
+    color: #3f5820;
+    text-decoration: underline;
+}
+
+footer #social
+{
+    float: right;
+    width: 8.5em;
+    padding: 0.34em 0 0 0;
+    overflow: hidden;
+}
+
+footer ul#social li
+{
+    display: inline-block;
+    width: 1.938em;
+    height: 1.938em;
+    margin: 0 0.25em 0 0;
+}
+
+footer ul#social a
+{
+    display: inline-block;
+    width: 1.938em;
+    height: 1.938em;
+    overflow: hidden;
+}
+
+footer li#fb a
+{
+    background: url(../i/fb-butt.png) no-repeat;
+    background-size: 1.938em 3.875em;
+}
+
+footer li#tw a
+{
+    background: url(../i/twitter-butt.png) no-repeat;
+    background-size: 1.938em 3.875em;
+}
+
+footer li#email a
+{
+    background: url(../i/email-butt.png) no-repeat;
+    background-size: 1.938em 3.875em;
+}
+
+footer li span
+{
+    display: none;
+}
+
+footer li#fb a:hover
+{
+    background: url(../i/fb-butt.png) no-repeat 0 -1.938em;
+    background-size: 1.938em 3.875em;
+}
+
+footer li#tw a:hover
+{
+    background: url(../i/twitter-butt.png) no-repeat 0 -1.938em;
+    background-size: 1.938em 3.875em;
+}
+
+footer li#email a:hover
+{
+    background: url(../i/email-butt.png) no-repeat 0 -1.938em;
+    background-size: 1.938em 3.875em;
+}
+
+#copyright
+{
+    text-align: right;
+    font-size: 0.625em;
+    color: #536d32;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+/* ---------------------------------------------------------------------------------------------
+2nd LEVEL PAGE STYLES 
+------------------------------------------------------------ ----------------------------------- */
+
+#pageIDbanner h1
+{
+    width: 68.75em;
+    height: 6.375em;
+    text-indent: -99999em;
+    overflow: hidden;
+}
+
+/* Page Banner image-------- */
+
+body.vision #pageIDbanner h1
+{
+    background: url(../i/vision-banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+body.benefits #pageIDbanner h1
+{
+    background: url(../i/benefits-banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+body.about #pageIDbanner h1
+{
+    background: url(../i/about-banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+body.facts #pageIDbanner h1
+{
+    background: url(../i/facts-banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+body.contact #pageIDbanner h1
+{
+    background: url(../i/contact-banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+body.process #pageIDbanner h1
+{
+    background: url(../i/public-process-banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+#pageContent
+{
+    width: 58.75em;
+    margin: 0 auto;
+    padding: 1.5em 0;
+}
+
+/* Content page Common Styles ************ */
+
+#pageContent a
+{
+    color: #404040;
+    text-decoration: underline;
+}
+
+#pageContent a:hover, #pageContent a:visited
+{
+    color: #536d32;
+    text-decoration: underline;
+}
+
+h1#pageTitle
+{
+    display: block;
+    width: 100%;
+    font-size: 2.75em;
+    color: #718b51;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.375em 0 0.375em 0;
+}
+
+#pageContent #intro
+{
+    display: block;
+    width: 100%;
+    font-size: 1.25em;
+    color: #757575;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin: 0;
+    padding: 0.5em 0 0.5em 0;
+}
+
+#pageContent p
+{
+    display: block;
+    width: 100%;
+    color: #404040;
+    line-height: 1.7em;
+    padding: 0 0 0.75em 0;
+}
+
+h2.header
+{
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    line-height: 1.135em;
+    color: #718b51;
+    font-weight: 600;
+    padding: 0.875em 0 0.35em;
+}
+
+h2.subheader
+{
+    display: block;
+    width: 100%;
+    font-size: 1.25em;
+    color: #718b51;
+    font-weight: 600;
+    padding: 0.875em 0 0.5em;
+}
+
+#pageContent ul
+{
+    display: block;
+    list-style-type: disc;
+    list-style-position: outside;
+    color: #404040;
+    padding: 0 0 0.75em 1em;
+    margin: 0;
+}
+
+#pageContent ul li
+{
+    margin-bottom: 0.25em;
+}
+
+figcaption
+{
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-style: italic;
+    font-weight: 300;
+    color: #718b51;
+    text-align: right;
+    padding: 0.125em 0 1em 0;
+}
+
+article
+{
+    display: block;
+    width: 58.75em;
+    background-color: #f2f6ee;
+    margin-bottom: 1.125em;
+    overflow: hidden;
+}
+
+article.introbox
+{
+    margin-top: 1em;
+}
+
+.picRight
+{
+    float: right;
+    border: 1px solid #cbdcb5;
+    margin: 0 0 0 1em;
+}
+
+.picLeft
+{
+    float: left;
+    border: 1px solid #cbdcb5;
+    margin: 0 2em 0 0;
+}
+
+.captionedImg
+{
+    display: block;
+    float: right;
+    border: 1px solid #cbdcb5;
+    margin: 0 0 0 1em;
+    padding: 1em 1em 0 1em;
+}
+
+body.contact .captionedImg
+{
+    background-color: #e6ecdf;
+    border: 2px solid #fff;
+}
+
+#pageContent .captionedImg a
+{
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-weight: 300;
+    color: #718b51;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 0.75em;
+}
+
+.captionedImg h4
+{
+    display: block;
+    font-weight: 600;
+    color: #718b51;
+    text-transform: uppercase;
+    padding-bottom: 0.25em;
+}
+
+.caption
+{
+    text-align: right;
+    text-indent: 1em;
+    padding: 0;
+}
+
+picture
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* FACTS Page ************ */
+
+#pageContent .content
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+#pageContent h2.subheader2
+{
+    display: block;
+    width: 100%;
+    font-size: 1.125em;
+    color: #718b51;
+    font-weight: 600;
+    padding: 1.5em 0 0.062em;
+}
+
+#pageContent h2.question
+{
+    display: block;
+    font-weight: 600;
+    color: #718b51;
+    font-size: 1.125em;
+    cursor: pointer;
+    margin-top: 0.25em;
+    padding: 0.75em 0  0.375em;
+}
+
+#pageContent span
+{
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #718b51;
+    letter-spacing: 0.05em;
+}
+
+/* boxed info 1 ************ */
+
+article ul#introPlus
+{
+    display: block;
+    width: inherit;
+    padding: 1.875em;
+}
+
+article #introPlus li
+{
+    display: inline-block;
+    width: 45%;
+    margin-right: 3.5%;
+    padding: 0;
+    vertical-align: text-top;
+}
+
+article ul#introPlus span
+{
+    font-size: 1.25em;
+    font-weight: 800;
+    color: #718b51;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* boxed info 2 ************ */
+
+#pageContent .boxedcontent
+{
+    display: block;
+    width: 54.938em;
+    margin: 0em auto 0 auto;
+    padding: 1.875em 0;
+}
+
+#pageContent .boxedcontent img
+{
+    display: block;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+}
+
+#pageContent ul.boxedbull2col
+{
+    display: block;
+    width: 54.938em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    list-style-position: 0;
+}
+
+#pageContent ul.boxedbull2col li
+{
+    display: inline-block;
+    width: 48%;
+    margin-right: 3.25%;
+    vertical-align: text-top;
+    font-size: 0.875em;
+    line-height: 1.10em;
+    padding: 0;
+}
+
+#pageContent ul.boxedbull2col li:nth-child(2)
+{
+    margin-right: 0;
+}
+
+.boxedbull2col span
+{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #718b51;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* PUBLIC PROCESS  Page ************ */
+
+#pageContent .boxedcontent h3
+{
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    color: #718b51;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.25em 0 0.75em;
+}
+
+/* BENEFITS  Page ************ */
+
+/* -- modal --*/
+
+.remodal-bg picture img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+.remodal
+{
+background-color: #	fff;
+}
+*/
+
+/* Contact Form
+-----------------------*/
+
+#filler
+{
+    height: 1.563em;
+}
+
+#contactForm
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#contactForm table td
+{
+    padding: 0 0.563em 1.875em 0.063em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#contactForm table .alignTop
+{
+    vertical-align: top;
+    padding: 0 0.563em 1.875em 0.063em;
+}
+
+#contactForm table td label
+{
+    width: 100%;
+    display: block;
+    font-size: 1em;
+    line-height: 1.813em;
+    border-bottom: 1px solid #ccd8bf;
+    vertical-align: middle;
+}
+
+#contactForm table td label span
+{
+    font-weight: bold;
+    color: #c4161c;
+}
+
+#contactForm table td .textStd
+{
+    background: #fff;
+    border: 1px solid #ccd8bf;
+    height: 1.125em;
+    line-height: 1.25em;
+    font-size: 1em;
+    vertical-align: middle;
+    padding: 0.5em 0.25em 0.5em 0.25em;
+    color: #333;
+    width: 31.25em;
+}
+
+#contactForm table td .taStd
+{
+    background: #fff;
+    border: 1px solid #ccd8bf;
+    height: 10.5em;
+    line-height: 1.125em;
+    font-size: 1em;
+    vertical-align: middle;
+    padding: 0.5em 0.25em 0.5em 0.25em;
+    color: #333;
+    width: 38.5em;
+    resize: none;
+}
+
+.cfSubmitArea
+{
+    width: 45.625em;
+    height: 3.125em;
+    overflow: hidden;
+}
+
+.cfSubmitArea .cfSubmitBtnWrap
+{
+    float: right;
+    display: block;
+    overflow: hidden;
+    background-color: #718b51;
+}
+
+.cfSubmitArea .cfSubmitBtnWrap:hover
+{
+    background-color: #000;
+}
+
+.cfSubmitArea .cfSubmitBtnWrap input#cfSubmit
+{
+    float: right;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0.5em 1.5em;
+}
+
+/*
+.cfSubmitArea .cfSubmitBtnWrap:hover input
+{
+opacity: 0;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+.filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+-moz-opacity: 0;
+-khtml-opacity: 0;	
+} */
+
+#contactForm #errors span
+{
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #a00;
+    font-weight: normal;
+}
+
+#contactForm #errors .leadError
+{
+    font-weight: bold;
+}
+
+.hiddenElement
+{
+    visibility: hidden;
+    display: none;
+}
+
+#contactForm label.updates_check
+{
+    border: none;
+    line-height: 20px;
+}
+
+#contactForm label.messageBox
+{
+    line-height: 20px;
+}
+
+#contactForm .cbWrap
+{
+    background: #FCF7ED;
+    width: 560px;
+    padding: 20px;
+}
+
+#contactForm .cbWrap p
+{
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+#contactForm .cbWrap label
+{
+    font-size: 12px;
+    line-height: 16px;
+    color: #444;
+    border: none;
+}
+
+#contactForm .supportInst
+{
+    font-size: 14px;
+    line-height: 17px;
+    color: #444;
+}
+
+/* ---------------------------------------------------------------------------------------------
+MOBILE HOMEPAGE STYLES 
+----------------------------------------------------------------------------------------------- */
+
+/* =========== Approx iPhone 4 Landscape  30em =480px =========== */
+
+@media only screen and (max-width : 30em){
+	
+
+}
+
+/* =========== Approx iPad Portait, Sidr menu no longer active =========== */
+
+@media only screen and (min-width: 48em){
+	
+}
+

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 4 Atlantic Homes */
+
+/* ---------------------------------------------------------------------------------------------
+MOBILE HOMEPAGE STYLES 
+----------------------------------------------------------------------------------------------- */		
+
+
+/* =========== Approx iPhone 4 Landscape  30em =480px =========== */
+@media only screen and (max-width : 30em){
+	
+html 
+	{ 
+			background: url(../i/home/RanchoHabra-bbg144-1.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	} 
+
+#wrapper
+	{
+	width: 100%;
+ 	margin: 0 auto;	
+	}
+	
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#logoBanner
+	{
+	width: width: 100%;
+	}
+	
+header
+	{
+	width: 100%;
+	height: auto;
+	background: url(../i/home/logo-banner-144.png) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	}
+
+
+
+
+}

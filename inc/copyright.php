@@ -1,0 +1,1 @@
+<p id="copyright">&copy; CalAtlantic Group, Inc.<sup>sm</sup> <?php echo date("Y");?></p>
